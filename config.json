@@ -1,10 +1,10 @@
 {
     "__comment01__": "SPECIFY WHAT MODULES WILL BE INCLUDED IN TELEGRAM BOT",
     "modules": {
-        "chatgpt": true,
+        "chatgpt": false,
         "edgegpt": true,
-        "dalle": true,
-        "bard": true,
+        "dalle": false,
+        "bard": false,
         "bing_imagegen": true,
         "gemini": true,
 
@@ -27,10 +27,10 @@
 
         "__comment06__": "FOR API TYPE 1 ACCESS TOKEN IS RECOMMENDED. GET IT FROM https://chat.openai.com/api/auth/session",
         "__comment07__": "OR SESSION_TOKEN (FROM COOKIES ON chat.openai.com AS __Secure-next-auth.session-token",
-        "email": "",
-        "password": "",
-        "session_token": "",
-        "access_token": "",
+        "email": "pragaticse@outlook.com",
+        "password": "hacky@A1",
+        "session_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..Oyod6_GrHOh6fBO_.iT2ZiWxuaL3_IGxc7AefYyQVpH_3vjAzSmuo4U-Ct-9ICe4f1Py7rOb0fRvQpdhE_-oNhjhUZwKUyIpncsc6HW7DloJ7Esg0MnPGyEzXs2UHlRDyNnh8BGjca4ttlovE_ktusnb_Z7fIDuY6PSgEicL7Jvs5qXstsoXEKkkGDYd_jHy6w-E-n8rnNDjNy1--axZ3BxaOXX3CWmpR6BNUxHewDBqZ1eVr5UPzicqiDspfI2_LR_rkKSS-wj83EieVb8-aSwxv-xxlAb35SOOWyqvZW4Kuu3yuWDFg0Uu55tQCiqK2jESF4x64J1doKFXPRqSLHFRucZQf873jKzws0um1_jA3Dw-cFgwNKlrq8DhGDuADTzsKP8BH8syxycGrrG3P9YtLZQ11qhPZPZ4Mqm7cplRHVvyvU2KI2oilrfPsxoCk81K0mVXYgeEoUZ8BsW4u6V1Ema3vWYcfpbVLZ0ElRSICzIa8bz8g42DDmkd03Tcqm8RmNkd1Dc7HTKU9p7wt5U5RJGSvEYpfvn7oZfKTmSvdIGFEe_-tbRPqgI_-jkoieMdpwy2BecSbkG0DLsFPGvGTostJ9RDqiUAr_rpxXPm5wEoynd5yylwsLtnEkKIVYmlf-vZmcd5OXoQ3RLXKTB40OougcTkYW8rdQrDDhGBUiOStf1MSAcazJZ41JQdTXzXGATYDn1sHW_1MjgSCITP2ScJkHJ1WZTA_W2a9bz9JyKoGyE2vt9Kxg9zUHtOyW7ea9m2J2Qg3w1pncCj4ZHFXaJA8FECpQKp9BqVg4sZx_fOzI0I307uS4TyoZQg9M69XxugQnBjJ2sa_MYLrn5eI_oONpSLBU8CU6FYWhq6ejfobHRHDIMjx4l79XlSFzmODLi6zX_98nD0HR2FlXOaCcOgCIbG0k38c3Yc8cEHuebKABpEJhgMJ0VlY3oH9EE1YH49LkCa2ZS7g7td8WaLHPd9I4JAVDFxdszI9xNAo-9CVmxbsqRKC4qB9Djrsv-cdoJ-cKJ1Tmh4yqrqkW1fN6ABboi6wCtdJGoD__xpivj9HkuqJwwEXX3hVI13W9KMdRBJNQIb4MniZv00xnP9hyzgTRV6InaLLbGnKmxoLsqy3ldiGWTiVvoASacHZhlXFQMJOJI4J_XhEcFl8br0jINwOEjxGxKVFPG8XDDrlBW3oXeuVBwcEUL4JjwCR-SQIL4gpgOMnp0IVPubF996FT3tam5eVkSFvCQy4oRNrf25Dgx_fLZJOpHM5Ne4lkvf3_3qlhz-RksdTfggUX76B3SsbspThZpidhxQBWQXhdl5ucZsC9FKTZA3K1Sz_ItjfMSAvNBD9NHQZtzOLaZFHJnnVswQI9Xali8yoistA-Xz1rlyJBWhyj9uVrfsJJO0Oju3B1V6G1IQbSCHpD8Iy6iu026Gp4drP94W1u5n463YTkNcM4jApE4qr8Vc_OOBXy8TCJCqbgt_58Yq4HzBmTSVlBi-NYqb45Tke47NAw_3CiqL4PcpC-n135kWQ-ljulmKXGaZF5GpFmW4oqVcs86oSQgrdbIaGzQlvwLgmcaWMsVCyKYx7KWAwgNJ_UNwQnI71MouYQYizmj2FNHYZD98qExS5SbBMtcKodVZxt77kLtVpCGsfkcSZyHB9A4tOoy6Q4-tSAOEYSmPDQ-AplKUtxabdIT07DixCoLoq2Dzm1Sh2U6vLesiKGpRaxqkKwnjIHN9euCbi1iMCoCF4F_GZ0Ppydt-KceHBcNv0qL1EgHKz18HxjALidUaY-Y9n1-p6dzV6xqWXM2wck28UeH7mEYdv70GpNQqdPU9ZfnspQ_6scHi6qENjatwM2slPENj0Pe-qt3fGto7Z7WKOWGGGLHC539m29eU8cSRVCyswrO4sapcQ-4ljljEQGFOyCoZKbghB-NLrAhgjpCD6yzfq8XkWuahbPyaBjxJEigfheLQThh1NOs3VURjBao25bv41xMT1ZgvUnY5xr9hmku75hnhPrdQIHdMgWtwPiZJrdckOhrZq2ZZnRvjInWJH-1T2oraoaxkjJq3xztQLToDwMDNVygTNUU0Rxgzjwlvs4c8Yyh9LyJe-Mu_dxw4_fK51UNzUxZBiDQXkcK6C4NF2b6Xi1xntfFmUasfLTSTI330c8G-GJrB3H5GvgHTi7TXcOHHpFb02DJopsfKWDbVIJ_qDuxDzvfeQHDlqLvh-VJEpC5ItRj6BX5TUgpXhc34Y3NOsSYzqFVnQ1Ygd0R4jOPMnDzfbmEKlZ2t5IUu9WRcU6C_VZnzedj5e07x36ja00b9cInXyP8N5pnkI28dRvjSF5zVg9BIPahM5Vw227Os51NAne8a0MUxgtadWBUgdl_OVrdDmClPkoOrXkogUBG5moslk9DXlE5CJtUbG6foqL6pNQT3YBRJpsM733nZPsIOpwQxRrn7jzWWZo_f4y7vtBF_edv65Fc5QRuBkI2wz2lBxsDR80vaE-Hq4YSGOiJYT3dwEgF2Y0cgFThcIlX4szAkvaUrJXQaOSbDk7z75PV5_DqMknCZ2zseTBiCg-a1C-NSnNHqKBF83Uy4HWQskEsRZ8k6FK3lZuS0ZLkv-PgzMPVIulV7aEij-MJPQYdMYqOjmHSLHzRDuWnOtkOGBn25t-BHylul2_ZJ47hLSULkDN5crSHqfsulRMwmqOnwNu8UuZ2m90vn0zyfHKa1rnczwtkD5aMOwemo1oJAYULkZ7Duni1HTgGMAQL4FZJOxafdzrQ6bvQ8-THL7D-kuu_2EjaRSaSL6Iq0KsMoneiPtRRLg--cLRp5n87Ooum2NfvaQV0aWdljI38lQGpXpIxZKI39XHBEhzcaENHZS2rBpeQJGGSDm93ECvTQ93J9WL7lnsVMGIuYb7FMKFxm2C96jX8vMCvu42IFPCb-ewO24cQEG.oUhQWZvZODneq32eO3W5vg",
+        "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJwcmFnYXRpY3NlQG91dGxvb2suY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL2F1dGgiOnsicG9pZCI6Im9yZy1PWGNiUzREUFBLQXphZVd2b2Rsb3BydmwiLCJ1c2VyX2lkIjoidXNlci13Nkp5elNsNVpubTRVVDFjRkRQT0hLU0IifSwiaXNzIjoiaHR0cHM6Ly9hdXRoMC5vcGVuYWkuY29tLyIsInN1YiI6IndpbmRvd3NsaXZlfDkwMTE0NWJhZTI5NDU4MzMiLCJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIsImh0dHBzOi8vb3BlbmFpLm9wZW5haS5hdXRoMGFwcC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzA2ODkzNDI4LCJleHAiOjE3MDc3NTc0MjgsImF6cCI6IlRkSkljYmUxNldvVEh0Tjk1bnl5d2g1RTR5T282SXRHIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBtb2RlbC5yZWFkIG1vZGVsLnJlcXVlc3Qgb3JnYW5pemF0aW9uLnJlYWQgb3JnYW5pemF0aW9uLndyaXRlIG9mZmxpbmVfYWNjZXNzIn0.0O3UFjxWNsp_S3er3mKRWJ7hvSs_80bjtWEoyVSyvarYifnJQ1Q8g_iUaXBOgRbwKuZtOO1R8NuauPS7L8kU2NsjHSySCEo4dKkjj7PcJ9R9UefsqccmbNHYUA1gljSkSeJTlLFa9XOcaa6EADGKxmMRTjDChZYxonIriBqLRNnEMOSBgg4qnsFrjWFpwjtRaDzMykbr9z6Vn-oB5QFwtFqNF1-KKgw2-zSGDr87EEMbHXuPYrx7I0fmLcGYcwthXzu43xMIkdewcQkvn3Jt1cd82A1qAfw59oPWotVUW0dZNAyQYAZbPtCCOQSOxBWmSAkl8Hj1JC3G7ivss46KKA",
 
         "__comment08__": "SET TO TRUE IF YOU HAVE PAID ACCOUNT",
         "paid": false,
@@ -38,7 +38,7 @@
         "__comment09__": "READ Base URL SECTION IN README. ONLY FOR API TYPE 1. SPECIFY NOTHING TO USE DEFAULT VALUE",
         "__comment10__": "MUST BE IN FORMAT http://IP:PORT/api/ (ex. http://192.168.0.2:9090/api/)",
         "__comment11__": "ENDING SLASH AND http:// (https://) IS MANDATORY!",
-        "base_url": "",
+        "base_url": "NOTHING",
 
         "__comment12__": "WHAT MESSAGE DOES THE Continue BUTTON SEND",
         "continue_request_text": "continue",
@@ -64,7 +64,7 @@
         "__comment03__": "Open the extension",
         "__comment04__": "Click Export on the bottom right, then Export as JSON (This saves your cookies to clipboard)",
         "__comment05__": "Create new .json file and paste cookies into it, save file and specify path to it here",
-        "cookies_file": "EdgeGPT_cookies.json",
+        "cookies_file": "cookies.json",
 
         "__comment06__": "WSS LINK FOR EDGE-GPT (LEAVE EMPTY FOR THE DEFAULT VALUE)",
         "wss_link": "",
@@ -109,7 +109,7 @@
         "__comment03__": "Open the extension",
         "__comment04__": "Click Export on the bottom right, then Export as JSON (This saves your cookies to clipboard)",
         "__comment05__": "Create new .json file and paste cookies into it, save file and specify path to it here",
-        "cookies_file": "EdgeGPT_cookies.json",
+        "cookies_file": "cookies.json",
 
         "__comment06__": "IF NEEDED, SPECIFY PROXY IN THE http://IP:PORT FORMAT (SPECIFY HTTP EVEN IF IT IS HTTPS PROXY)",
         "__comment07__": "OR SET TO auto AND ENABLE proxy_automation TO AUTOMATICALLY SEARCH WORKING PROXIES",
@@ -145,7 +145,7 @@
     "__comment07__": "GEMINI SETTINGS",
     "gemini": {
         "__comment01__": "API_KEY FROM https://makersuite.google.com/app/apikey",
-        "api_key": "",
+        "api_key": "AIzaSyC-Jx_WMLrRLh6vcFhLhF05MnTSqdWcekE",
 
         "__comment02__": "AI CONFIG, SEE https://ai.google.dev/api/python/google/generativeai/GenerationConfig for more",
         "temperature": 0.9,
@@ -170,10 +170,10 @@
     "__comment08__": "TELEGRAM SETTINGS",
     "telegram": {
         "__comment01__": "PROVIDE YOUR BOT API KEY FROM https://t.me/BotFather",
-        "api_key": "",
+        "api_key": "6741808314:AAFgX_SBzID0QZepY6cywO8Prmi6prg2TdE",
 
         "__comment02__": "SPECIFY THE chat_id OF THOSE WHO CAN USE ADMINISTRATOR COMMANDS",
-        "admin_ids": [],
+        "admin_ids": [1300094147],
 
         "__comment03__": "SET TO TRUE TO BLOCK NEW USERS BY DEFAULT (WHITELIST)",
         "ban_by_default": false,
