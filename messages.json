@@ -6,7 +6,7 @@
     "language_select": "Please select an interface language",
     "language_changed": "🇺🇸 You've selected English\\n\\nYou can change the language at any time by typing the /lang command",
     "start_message": "Hello, 👋 \\n\\n📄😺 Our Channel:https://t.me/+N6w8RqJFpcxjZjE1 \\n\\nSupport us by joining our channel.",
-    "help_message": "📄 /start - Welcome message and bot version\\n❓ /help - Show this message\\n↕ /module - Change module to chat with\\n🧹 /clear - Clear chat history\\n🌎 /lang - Change the language\\n🆔 /chatid - Show your chat_id\\n\\nJoin Telegram @Hackers_Co\\n\\nNow to get started send me any message 💬",
+    "help_message": "📄 /start - Welcome message and bot version\\n❓ /help - Show this message\\n↕ /module - Change module to chat with\\n🧹 /clear - Clear chat history\\n🌎 /lang - Change the language\\n🆔 /chatid - Show your chat_id\n/dalle [prompt] - Generate images from text using Dalle3\n/gpt [prompt] - Generate text from prompt using GPT4 Ai\n/bard [prompt] - Generate text from prompt using BARD Ai\nEx:/bard hi\\n\\nJoin Telegram @Hackers_Co\\n\\nNow to get started send me any message 💬",
     "help_message_admin": "Admin commands:\\n\\n💬 /queue - Show requests queue\\n🔃 /restart - Restart proxies and telegram bot\\n👤 /users - Show list of all users\\n🔨 /ban <id> [reason] - Ban a user by their id with reason (optional)\\n🔓 /unban <id> - Unban a user by their id\\n📢 /broadcast <message> - Send text message to everyone except banned users",
     "empty_request_module_changed": "✅ Your module has been changed to {0}\\nNow send me your request as a message",
     "media_group_response": "Generated images for \"{}\" request",
@@ -60,7 +60,7 @@
       "🔵 GPT 4",
       "🖥 Bard",
       "🎨 Dalle 3",
-      "♊ Gemini"
+      "♊ Bard"
     ],
     "module_icons": [
       "💬",
@@ -456,7 +456,7 @@
     "language_icon": "🇮🇷",
     "language_select_error": "❌ خطا در انتخاب زبان!\\n\\n{0}",
     "language_select": "لطفاً یک زبان رابط انتخاب کنید",
-    "language_changed": "🇮🇷 شما فارسی را انتخاب کرده اید\\n\\nمی توانید زبان را در هر زمان با تایپ کردن این دستور تغییر دهید /lang",
+    "language_changed": "",
     "start_message": "Hello, 👋 \\n\\n📄😺 Our Channel:https://t.me/+N6w8RqJFpcxjZjE1 \\n\\nSupport us by joining our channel.",
     "help_message": "📄 /start - پیام خوش آمد گویی و نسخه ربات\\n❓ /help - نمایش این پیام\\n↕ /module - ماژول را برای چت با آن تغییر دهید\\n🧹 /clear - پاک کردن تاریخچه پیام\\n🌎 /lang - زبان را تغییر دهید\\n🆔 /chatid - شناسه چت خود را نشان دهید\\n\\nاکنون برای شروع هر پیامی را برای من ارسال کنید 💬",
     "help_message_admin": "دستورات ادمین:\\n\\n💬 /queue - نمایش صف درخواست ها\\n🔃 /restart - پراکسی ها و ربات تلگرام را راه اندازی مجدد کنید\\n👤 /users - نمایش لیست همه کاربران\\n🔨 /ban <id> [reason] - ممنوعیت کاربر با کد شناسایی به دلیل (اختیاری)\\n🔓 /unban <id> - لغو ممنوعیت یک کاربر با کد شناسایی آن\\n📢 /broadcast <message> - برای همه به جز کاربران ممنوعه پیام ارسال کنید",

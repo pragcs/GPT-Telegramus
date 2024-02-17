@@ -65,9 +65,9 @@ BOT_COMMAND_CHAT = "chat"
 BOT_COMMAND_CHATGPT = "chatgpt"
 BOT_COMMAND_EDGEGPT = "gpt"
 BOT_COMMAND_DALLE = "qwe"
-BOT_COMMAND_BARD = "bard"
+BOT_COMMAND_BARD = "qwerttafaf"
 BOT_COMMAND_BING_IMAGEGEN = "dalle"
-BOT_COMMAND_GEMINI = "gemini"
+BOT_COMMAND_GEMINI = "bard"
 BOT_COMMAND_MODULE = "module"
 BOT_COMMAND_STYLE = "style"
 BOT_COMMAND_CLEAR = "clear"
@@ -1090,8 +1090,8 @@ class BotHandler:
 
                 # Handle requests as messages
                 if self.config["telegram"]["reply_to_messages"]:
-                    self._application.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), self.bot_message))
-                    self._application.add_handler(MessageHandler(filters.PHOTO & (~filters.COMMAND), self.bot_message))
+                    self._application.add_handler(MessageHandler( (~filters.COMMAND &  filters.Regex(r'^/[^\s]+')), self.bot_message))
+                    # self._application.add_handler(MessageHandler(filters.PHOTO & (~filters.COMMAND), self.bot_message))
 
                 # Admin commands
                 self._application.add_handler(CommandHandler(BOT_COMMAND_ADMIN_QUEUE, self.bot_command_queue))
@@ -2007,7 +2007,7 @@ class BotHandler:
         # Request module selection
         await self.bot_command_lang_raw(-1, user, context)
 
-    async def bot_command_lang_raw(self, lang_index: int, user: dict, context: ContextTypes.DEFAULT_TYPE) -> None:
+    async def bot_command_lang_raw(self, lang_index: 0, user: dict, context: ContextTypes.DEFAULT_TYPE) -> None:
         """
         Selects user language
         :param lang_index: <0 for language selection
@@ -2016,7 +2016,7 @@ class BotHandler:
         :return:
         """
         # Create buttons for language selection
-        if lang_index < 0 or lang_index > len(self.messages):
+        if lang_index < 0 and lang_index > len(self.messages):
             # Create language and buttons prompt
             buttons = []
             language_select_text = ""
@@ -2028,6 +2028,7 @@ class BotHandler:
                     )
                 )
                 language_select_text += language["language_select"] + "\n"
+                print(language_select_text)
 
             await _send_safe(
                 user["user_id"],
@@ -2040,7 +2041,7 @@ class BotHandler:
         # Change language
         try:
             # Change language of user
-            user["lang"] = lang_index
+            user["lang"] = 0
             self.users_handler.save_user(user)
 
             # Send confirmation
@@ -2060,6 +2061,9 @@ class BotHandler:
                 context,
             )
 
+    async def bot_command_gemini(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        await self.bot_command_or_message_request(RequestResponseContainer.REQUEST_TYPE_GEMINI, update, context)
+
     async def bot_command_chatgpt(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         await self.bot_command_or_message_request(RequestResponseContainer.REQUEST_TYPE_CHATGPT, update, context)
 
@@ -2075,8 +2079,6 @@ class BotHandler:
     async def bot_command_bing_imagegen(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         await self.bot_command_or_message_request(RequestResponseContainer.REQUEST_TYPE_BING_IMAGEGEN, update, context)
 
-    async def bot_command_gemini(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
-        await self.bot_command_or_message_request(RequestResponseContainer.REQUEST_TYPE_GEMINI, update, context)
 
     async def bot_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         await self.bot_command_or_message_request(-1, update, context)

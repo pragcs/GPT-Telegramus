@@ -170,7 +170,8 @@
     "__comment08__": "TELEGRAM SETTINGS",
     "telegram": {
         "__comment01__": "PROVIDE YOUR BOT API KEY FROM https://t.me/BotFather",
-        "api_key": "6985575748:AAHk4l5uWHN9buc3cnKCu0vzLb2KHX2uAJ8",
+        "api_key": "6985575748:AAHk4l5uWHN9buc3cnKCu0vzLb2KHX2uAJ8",  
+        "api_keyfake": "6741808314:AAFgX_SBzID0QZepY6cywO8Prmi6prg2TdE",
 
         "__comment02__": "SPECIFY THE chat_id OF THOSE WHO CAN USE ADMINISTRATOR COMMANDS",
         "admin_ids": [1300094147],
